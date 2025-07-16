@@ -2,3 +2,4 @@
 /install
 /log
 /src/drone_bringup/map/rtabmap.db
+src/realsense-ros
