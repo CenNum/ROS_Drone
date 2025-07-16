@@ -1,0 +1,26 @@
+# RTAB-Map 定位模式的参数文件
+#
+# 已修正以下问题:
+# 1. 移除了无效的 'subscribe_odom' 和 'odom_topic' 参数。里程计话题应在 launch 文件中通过 remapping 指定。
+# 2. 将 'frame_id' 修正为 'base_footprint'，以匹配 SLAM 建图时的坐标系。
+# 3. 将 'approx_sync' 设置为 'true'，以提高对 RGB 和深度图像时间戳的容忍度，这对于真实硬件至关重要。
+#
+rtabmap: # 确保您的 launch 文件中的节点名称是 "rtabmap"
+  ros__parameters:
+    # 核心定位模式参数,传入字符串
+    Rtabmap/StartInLocalizationMode: "true"
+    Mem/IncrementalMemory: "false" # Mem/IncrementalMemory
+    Param/UpdateFromDatabase: "false"
+    # 订阅设置
+    subscribe_depth: true
+    subscribe_rgb: true
+
+    # 框架ID和数据库路径
+    # ❗【重要】frame_id 必须与建图时使用的 frame_id 一致
+    frame_id: "base_footprint"
+    odom_frame_id: "odom_frame"
+    database_path: "/home/orangepi/ros2_ws/src/drone_bringup/map/rtabmap.db" # 使用 ~ 表示用户主目录，更具可移植性
+
+    # 同步设置
+    approx_sync: true # 对 D400 的 RGB 和 Depth 流使用近似同步
+    wait_for_transform: 0.2
