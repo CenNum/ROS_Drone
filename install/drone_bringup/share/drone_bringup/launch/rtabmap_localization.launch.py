@@ -1,1 +1,0 @@
-/home/orangepi/ros2_ws/src/drone_bringup/launch/rtabmap_localization.launch.py

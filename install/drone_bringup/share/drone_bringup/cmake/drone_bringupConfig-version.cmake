@@ -1,1 +1,0 @@
-/home/orangepi/ros2_ws/build/drone_bringup/ament_cmake_core/drone_bringupConfig-version.cmake

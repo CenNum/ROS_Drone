@@ -1,7 +1,0 @@
-[console_scripts]
-drone_dashboard_gui = drone_utilities.drone_dashboard_gui:main
-odom_to_pose_converter = drone_utilities.odom_to_pose_converter:main
-odom_to_twist = drone_utilities.odom_to_twist:main
-t265_to_mav = drone_utilities.t265_to_mav:main
-waypoint_navigator = drone_utilities.waypoint_navigator:main
-
