@@ -1,0 +1,21 @@
+[1.308s] Invoking command in '/home/orangepi/ros2_ws/build/drone_utilities': PYTHONPATH=/home/orangepi/ros2_ws/build/drone_utilities/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_ws/install/drone_utilities/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orangepi/ros2_ws/build/drone_utilities/build --no-deps symlink_data
+[1.712s] running develop
+[1.915s] running egg_info
+[1.916s] writing drone_utilities.egg-info/PKG-INFO
+[1.918s] writing dependency_links to drone_utilities.egg-info/dependency_links.txt
+[1.918s] writing entry points to drone_utilities.egg-info/entry_points.txt
+[1.919s] writing requirements to drone_utilities.egg-info/requires.txt
+[1.919s] writing top-level names to drone_utilities.egg-info/top_level.txt
+[1.924s] reading manifest file 'drone_utilities.egg-info/SOURCES.txt'
+[1.926s] writing manifest file 'drone_utilities.egg-info/SOURCES.txt'
+[1.930s] running build_ext
+[1.931s] Creating /home/orangepi/ros2_ws/install/drone_utilities/lib/python3.10/site-packages/drone-utilities.egg-link (link to .)
+[1.932s] Installing drone_dashboard_gui script to /home/orangepi/ros2_ws/install/drone_utilities/lib/drone_utilities
+[1.933s] Installing odom_to_pose_converter script to /home/orangepi/ros2_ws/install/drone_utilities/lib/drone_utilities
+[1.933s] Installing odom_to_twist script to /home/orangepi/ros2_ws/install/drone_utilities/lib/drone_utilities
+[1.933s] Installing t265_to_mav script to /home/orangepi/ros2_ws/install/drone_utilities/lib/drone_utilities
+[1.933s] Installing waypoint_navigator script to /home/orangepi/ros2_ws/install/drone_utilities/lib/drone_utilities
+[1.937s] 
+[1.937s] Installed /home/orangepi/ros2_ws/build/drone_utilities
+[1.938s] running symlink_data
+[2.112s] Invoked command in '/home/orangepi/ros2_ws/build/drone_utilities' returned '0': PYTHONPATH=/home/orangepi/ros2_ws/build/drone_utilities/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_ws/install/drone_utilities/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orangepi/ros2_ws/build/drone_utilities/build --no-deps symlink_data

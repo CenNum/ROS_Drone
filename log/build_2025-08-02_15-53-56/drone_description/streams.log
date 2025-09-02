@@ -1,0 +1,31 @@
+[0.063s] Invoking command in '/home/orangepi/ros2_ws/build/drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_ws/build/drone_description -- -j8 -l8
+[0.532s] Invoked command in '/home/orangepi/ros2_ws/build/drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_ws/build/drone_description -- -j8 -l8
+[0.552s] Invoking command in '/home/orangepi/ros2_ws/build/drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_ws/build/drone_description
+[0.565s] -- Install configuration: ""
+[0.576s] -- Execute custom install script
+[0.585s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/drone_description/urdf/drone.urdf.xacro
+[0.586s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/drone_description/urdf/my_d rone.gv
+[0.586s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/drone_description/urdf/my_drone.gv
+[0.588s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/drone_description/urdf/my_drone.pdf
+[0.588s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/drone_description/launch/display.launch.py
+[0.589s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/drone_description/urdf/drone.urdf.xacro
+[0.590s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/drone_description/urdf/my_d rone.gv
+[0.590s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/drone_description/urdf/my_drone.gv
+[0.591s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/drone_description/urdf/my_drone.pdf
+[0.591s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/drone_description/rviz/display.rviz
+[0.593s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/ament_index/resource_index/package_run_dependencies/drone_description
+[0.593s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/ament_index/resource_index/parent_prefix_path/drone_description
+[0.593s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/drone_description/environment/ament_prefix_path.sh
+[0.594s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/drone_description/environment/ament_prefix_path.dsv
+[0.595s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/drone_description/environment/path.sh
+[0.595s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/drone_description/environment/path.dsv
+[0.597s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/drone_description/local_setup.bash
+[0.598s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/drone_description/local_setup.sh
+[0.600s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/drone_description/local_setup.zsh
+[0.601s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/drone_description/local_setup.dsv
+[0.601s] -- Symlinking: /home/orangepi/ros2_ws/install/drone_description/share/drone_description/package.dsv
+[0.632s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/ament_index/resource_index/packages/drone_description
+[0.633s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/drone_description/cmake/drone_descriptionConfig.cmake
+[0.633s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/drone_description/cmake/drone_descriptionConfig-version.cmake
+[0.634s] -- Up-to-date symlink: /home/orangepi/ros2_ws/install/drone_description/share/drone_description/package.xml
+[0.642s] Invoked command in '/home/orangepi/ros2_ws/build/drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_ws/build/drone_description

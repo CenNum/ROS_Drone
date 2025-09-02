@@ -1,0 +1,484 @@
+[0.248s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.248s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9865c670>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9865c0a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9865c0a0>>)
+[0.730s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.730s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.730s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.730s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.730s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.731s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.731s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/orangepi/ros2_ws'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_bringup) by extension 'ignore'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_bringup) by extension 'ignore_ament_install'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_bringup) by extensions ['colcon_pkg']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_bringup) by extension 'colcon_pkg'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_bringup) by extensions ['colcon_meta']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_bringup) by extension 'colcon_meta'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_bringup) by extensions ['ros']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_bringup) by extension 'ros'
+[0.783s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_bringup' with type 'ros.ament_cmake' and name 'drone_bringup'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extensions ['ignore', 'ignore_ament_install']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extension 'ignore'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extension 'ignore_ament_install'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extensions ['colcon_pkg']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extension 'colcon_pkg'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extensions ['colcon_meta']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extension 'colcon_meta'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extensions ['ros']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_description) by extension 'ros'
+[0.786s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_description' with type 'ros.ament_cmake' and name 'drone_description'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_utilities) by extensions ['ignore', 'ignore_ament_install']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_utilities) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_utilities) by extension 'ignore_ament_install'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_utilities) by extensions ['colcon_pkg']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_utilities) by extension 'colcon_pkg'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_utilities) by extensions ['colcon_meta']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_utilities) by extension 'colcon_meta'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_utilities) by extensions ['ros']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_utilities) by extension 'ros'
+[0.788s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_utilities' with type 'ros.ament_python' and name 'drone_utilities'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore_ament_install'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_pkg']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_pkg'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_meta']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_meta'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ros']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ros'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['cmake', 'python']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'cmake'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['python_setup_py']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python_setup_py'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ros']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ros'
+[0.792s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_pkg'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_meta']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_meta'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ros']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ros'
+[0.794s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ros']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ros'
+[0.795s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore_ament_install'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_pkg']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_pkg'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_meta']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_meta'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ros']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ros'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['cmake', 'python']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'cmake'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['python_setup_py']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python_setup_py'
+[0.797s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.797s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.797s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.797s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.797s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'cmake_args' from command line to 'None'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'cmake_target' from command line to 'None'
+[0.853s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'drone_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.854s] DEBUG:colcon.colcon_core.verb:Building package 'drone_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2_ws/build/drone_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2_ws/install/drone_description', 'merge_install': False, 'path': '/home/orangepi/ros2_ws/src/drone_description', 'symlink_install': True, 'test_result_base': None}
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'drone_utilities' build argument 'cmake_args' from command line to 'None'
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'drone_utilities' build argument 'cmake_target' from command line to 'None'
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'drone_utilities' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'drone_utilities' build argument 'cmake_clean_cache' from command line to 'False'
+[0.854s] Level 5:colcon.colcon_core.verb:set package 'drone_utilities' build argument 'cmake_clean_first' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'drone_utilities' build argument 'cmake_force_configure' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'drone_utilities' build argument 'ament_cmake_args' from command line to 'None'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'drone_utilities' build argument 'catkin_cmake_args' from command line to 'None'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'drone_utilities' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.855s] DEBUG:colcon.colcon_core.verb:Building package 'drone_utilities' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2_ws/build/drone_utilities', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2_ws/install/drone_utilities', 'merge_install': False, 'path': '/home/orangepi/ros2_ws/src/drone_utilities', 'symlink_install': True, 'test_result_base': None}
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.855s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.856s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2_ws/build/realsense2_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2_ws/install/realsense2_camera_msgs', 'merge_install': False, 'path': '/home/orangepi/ros2_ws/src/realsense-ros/realsense2_camera_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_args' from command line to 'None'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target' from command line to 'None'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.856s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.856s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2_ws/build/realsense2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2_ws/install/realsense2_camera', 'merge_install': False, 'path': '/home/orangepi/ros2_ws/src/realsense-ros/realsense2_camera', 'symlink_install': True, 'test_result_base': None}
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_args' from command line to 'None'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target' from command line to 'None'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.857s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.857s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2_ws/build/realsense2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2_ws/install/realsense2_description', 'merge_install': False, 'path': '/home/orangepi/ros2_ws/src/realsense-ros/realsense2_description', 'symlink_install': True, 'test_result_base': None}
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'drone_bringup' build argument 'cmake_args' from command line to 'None'
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'drone_bringup' build argument 'cmake_target' from command line to 'None'
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'drone_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'drone_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'drone_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'drone_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'drone_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'drone_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.858s] Level 5:colcon.colcon_core.verb:set package 'drone_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.858s] DEBUG:colcon.colcon_core.verb:Building package 'drone_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/orangepi/ros2_ws/build/drone_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/orangepi/ros2_ws/install/drone_bringup', 'merge_install': False, 'path': '/home/orangepi/ros2_ws/src/drone_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.858s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.860s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.919s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/ros2_ws/src/realsense-ros/realsense2_camera_msgs' with build type 'ament_cmake'
+[0.919s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/ros2_ws/src/realsense-ros/realsense2_camera_msgs'
+[0.933s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.935s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.935s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.968s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/ros2_ws/src/drone_description' with build type 'ament_cmake'
+[0.968s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/ros2_ws/src/drone_description'
+[0.969s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.969s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.993s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/orangepi/ros2_ws/src/drone_utilities' with build type 'ament_python'
+[0.994s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_utilities', 'ament_prefix_path')
+[0.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/drone_utilities/share/drone_utilities/hook/ament_prefix_path.ps1'
+[1.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_ws/install/drone_utilities/share/drone_utilities/hook/ament_prefix_path.dsv'
+[1.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/drone_utilities/share/drone_utilities/hook/ament_prefix_path.sh'
+[1.006s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.006s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_ws/build/realsense2_camera_msgs -- -j8 -l8
+[1.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_ws/build/drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_ws/build/drone_description -- -j8 -l8
+[1.493s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/orangepi/ros2_ws/src/drone_utilities'
+[1.493s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.494s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_ws/build/drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_ws/build/drone_description -- -j8 -l8
+[1.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_ws/build/drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_ws/build/drone_description
+[1.612s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone_description)
+[1.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_ws/build/drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_ws/build/drone_description
+[1.628s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_description' for CMake module files
+[1.629s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_description' for CMake config files
+[1.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_description', 'cmake_prefix_path')
+[1.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/drone_description/share/drone_description/hook/cmake_prefix_path.ps1'
+[1.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_ws/install/drone_description/share/drone_description/hook/cmake_prefix_path.dsv'
+[1.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/drone_description/share/drone_description/hook/cmake_prefix_path.sh'
+[1.633s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_description/bin'
+[1.633s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_description/lib/pkgconfig/drone_description.pc'
+[1.634s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_description/lib/python3.10/site-packages'
+[1.634s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_description/bin'
+[1.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/drone_description/share/drone_description/package.ps1'
+[1.637s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_ws/install/drone_description/share/drone_description/package.dsv'
+[1.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/drone_description/share/drone_description/package.sh'
+[1.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/drone_description/share/drone_description/package.bash'
+[1.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/drone_description/share/drone_description/package.zsh'
+[1.658s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_ws/install/drone_description/share/colcon-core/packages/drone_description)
+[1.662s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone_description)
+[1.666s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_description' for CMake module files
+[1.669s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_description' for CMake config files
+[1.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_description', 'cmake_prefix_path')
+[1.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/drone_description/share/drone_description/hook/cmake_prefix_path.ps1'
+[1.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_ws/install/drone_description/share/drone_description/hook/cmake_prefix_path.dsv'
+[1.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/drone_description/share/drone_description/hook/cmake_prefix_path.sh'
+[1.676s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_description/bin'
+[1.676s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_description/lib/pkgconfig/drone_description.pc'
+[1.676s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_description/lib/python3.10/site-packages'
+[1.677s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_description/bin'
+[1.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/drone_description/share/drone_description/package.ps1'
+[1.678s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_ws/install/drone_description/share/drone_description/package.dsv'
+[1.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/drone_description/share/drone_description/package.sh'
+[1.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/drone_description/share/drone_description/package.bash'
+[1.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/drone_description/share/drone_description/package.zsh'
+[1.683s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_ws/install/drone_description/share/colcon-core/packages/drone_description)
+[1.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_ws/build/realsense2_camera_msgs -- -j8 -l8
+[1.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_ws/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_ws/build/realsense2_camera_msgs
+[2.030s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera_msgs' for CMake module files
+[2.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_ws/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_ws/build/realsense2_camera_msgs
+[2.037s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera_msgs' for CMake config files
+[2.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[2.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[2.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[2.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/lib'
+[2.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[2.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[2.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[2.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[2.054s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/bin'
+[2.054s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[2.054s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[2.054s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/bin'
+[2.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[2.056s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[2.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[2.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[2.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[2.059s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[2.060s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera_msgs)
+[2.060s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera_msgs' for CMake module files
+[2.061s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera_msgs' for CMake config files
+[2.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'cmake_prefix_path')
+[2.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.ps1'
+[2.064s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.dsv'
+[2.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/cmake_prefix_path.sh'
+[2.066s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/lib'
+[2.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera_msgs', 'ld_library_path_lib')
+[2.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.ps1'
+[2.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.dsv'
+[2.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/hook/ld_library_path_lib.sh'
+[2.072s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/bin'
+[2.072s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/lib/pkgconfig/realsense2_camera_msgs.pc'
+[2.072s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/lib/python3.10/site-packages'
+[2.073s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/bin'
+[2.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.ps1'
+[2.074s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv'
+[2.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.sh'
+[2.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.bash'
+[2.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.zsh'
+[2.078s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_ws/install/realsense2_camera_msgs/share/colcon-core/packages/realsense2_camera_msgs)
+[2.078s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/ros2_ws/src/realsense-ros/realsense2_camera' with build type 'ament_cmake'
+[2.078s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/ros2_ws/src/realsense-ros/realsense2_camera'
+[2.079s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.079s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.087s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/ros2_ws/src/realsense-ros/realsense2_description' with build type 'ament_cmake'
+[2.087s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/ros2_ws/src/realsense-ros/realsense2_description'
+[2.088s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.088s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/orangepi/ros2_ws/install/realsense2_camera_msgs:/home/orangepi/ros2_ws/install/realsense2_description:/home/orangepi/ros2_ws/install/drone_bringup:/home/orangepi/ros2_ws/install/realsense2_camera:/home/orangepi/ros2_ws/install/drone_description:/home/orangepi/mavros_ws/install/mavros_extras:/home/orangepi/mavros_ws/install/mavros:/home/orangepi/mavros_ws/install/mavros_msgs:/home/orangepi/mavros_ws/install/libmavconn:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2_ws/install/realsense2_camera_msgs/lib:/home/orangepi/ros2_ws/install/realsense2_camera/lib:/home/orangepi/mavros_ws/install/mavros_extras/lib:/home/orangepi/mavros_ws/install/mavros/lib:/home/orangepi/mavros_ws/install/mavros_msgs/lib:/home/orangepi/mavros_ws/install/libmavconn/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/orangepi/ros2_ws/build/realsense2_camera -- -j8 -l8
+[2.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_ws/build/realsense2_description': CMAKE_PREFIX_PATH=/home/orangepi/ros2_ws/install/realsense2_camera_msgs:/home/orangepi/ros2_ws/install/realsense2_description:/home/orangepi/ros2_ws/install/drone_bringup:/home/orangepi/ros2_ws/install/realsense2_camera:/home/orangepi/ros2_ws/install/drone_description:/home/orangepi/mavros_ws/install/mavros_extras:/home/orangepi/mavros_ws/install/mavros:/home/orangepi/mavros_ws/install/mavros_msgs:/home/orangepi/mavros_ws/install/libmavconn:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2_ws/install/realsense2_camera_msgs/lib:/home/orangepi/ros2_ws/install/realsense2_camera/lib:/home/orangepi/mavros_ws/install/mavros_extras/lib:/home/orangepi/mavros_ws/install/mavros/lib:/home/orangepi/mavros_ws/install/mavros_msgs/lib:/home/orangepi/mavros_ws/install/libmavconn/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/orangepi/ros2_ws/build/realsense2_description -- -j8 -l8
+[2.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_ws/build/drone_utilities': PYTHONPATH=/home/orangepi/ros2_ws/build/drone_utilities/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_ws/install/drone_utilities/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orangepi/ros2_ws/build/drone_utilities/build --no-deps symlink_data
+[2.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_ws/build/realsense2_description' returned '0': CMAKE_PREFIX_PATH=/home/orangepi/ros2_ws/install/realsense2_camera_msgs:/home/orangepi/ros2_ws/install/realsense2_description:/home/orangepi/ros2_ws/install/drone_bringup:/home/orangepi/ros2_ws/install/realsense2_camera:/home/orangepi/ros2_ws/install/drone_description:/home/orangepi/mavros_ws/install/mavros_extras:/home/orangepi/mavros_ws/install/mavros:/home/orangepi/mavros_ws/install/mavros_msgs:/home/orangepi/mavros_ws/install/libmavconn:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2_ws/install/realsense2_camera_msgs/lib:/home/orangepi/ros2_ws/install/realsense2_camera/lib:/home/orangepi/mavros_ws/install/mavros_extras/lib:/home/orangepi/mavros_ws/install/mavros/lib:/home/orangepi/mavros_ws/install/mavros_msgs/lib:/home/orangepi/mavros_ws/install/libmavconn/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/orangepi/ros2_ws/build/realsense2_description -- -j8 -l8
+[2.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_ws/build/realsense2_description': CMAKE_PREFIX_PATH=/home/orangepi/ros2_ws/install/realsense2_camera_msgs:/home/orangepi/ros2_ws/install/realsense2_description:/home/orangepi/ros2_ws/install/drone_bringup:/home/orangepi/ros2_ws/install/realsense2_camera:/home/orangepi/ros2_ws/install/drone_description:/home/orangepi/mavros_ws/install/mavros_extras:/home/orangepi/mavros_ws/install/mavros:/home/orangepi/mavros_ws/install/mavros_msgs:/home/orangepi/mavros_ws/install/libmavconn:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2_ws/install/realsense2_camera_msgs/lib:/home/orangepi/ros2_ws/install/realsense2_camera/lib:/home/orangepi/mavros_ws/install/mavros_extras/lib:/home/orangepi/mavros_ws/install/mavros/lib:/home/orangepi/mavros_ws/install/mavros_msgs/lib:/home/orangepi/mavros_ws/install/libmavconn/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/orangepi/ros2_ws/build/realsense2_description
+[2.431s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[2.433s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_description' for CMake module files
+[2.437s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_description' for CMake config files
+[2.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_ws/build/realsense2_description' returned '0': CMAKE_PREFIX_PATH=/home/orangepi/ros2_ws/install/realsense2_camera_msgs:/home/orangepi/ros2_ws/install/realsense2_description:/home/orangepi/ros2_ws/install/drone_bringup:/home/orangepi/ros2_ws/install/realsense2_camera:/home/orangepi/ros2_ws/install/drone_description:/home/orangepi/mavros_ws/install/mavros_extras:/home/orangepi/mavros_ws/install/mavros:/home/orangepi/mavros_ws/install/mavros_msgs:/home/orangepi/mavros_ws/install/libmavconn:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2_ws/install/realsense2_camera_msgs/lib:/home/orangepi/ros2_ws/install/realsense2_camera/lib:/home/orangepi/mavros_ws/install/mavros_extras/lib:/home/orangepi/mavros_ws/install/mavros/lib:/home/orangepi/mavros_ws/install/mavros_msgs/lib:/home/orangepi/mavros_ws/install/libmavconn/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/orangepi/ros2_ws/build/realsense2_description
+[2.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[2.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[2.447s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[2.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[2.454s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_description/bin'
+[2.455s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[2.457s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_description/lib/python3.10/site-packages'
+[2.459s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_description/bin'
+[2.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_description/share/realsense2_description/package.ps1'
+[2.465s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_ws/install/realsense2_description/share/realsense2_description/package.dsv'
+[2.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_description/share/realsense2_description/package.sh'
+[2.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_description/share/realsense2_description/package.bash'
+[2.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_description/share/realsense2_description/package.zsh'
+[2.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_ws/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[2.485s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_description)
+[2.486s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_description' for CMake module files
+[2.487s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_description' for CMake config files
+[2.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_description', 'cmake_prefix_path')
+[2.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.ps1'
+[2.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.dsv'
+[2.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/realsense2_description/share/realsense2_description/hook/cmake_prefix_path.sh'
+[2.505s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_description/bin'
+[2.505s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_description/lib/pkgconfig/realsense2_description.pc'
+[2.505s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_description/lib/python3.10/site-packages'
+[2.506s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_description/bin'
+[2.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_description/share/realsense2_description/package.ps1'
+[2.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_ws/install/realsense2_description/share/realsense2_description/package.dsv'
+[2.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_description/share/realsense2_description/package.sh'
+[2.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_description/share/realsense2_description/package.bash'
+[2.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_description/share/realsense2_description/package.zsh'
+[2.513s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_ws/install/realsense2_description/share/colcon-core/packages/realsense2_description)
+[2.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/orangepi/ros2_ws/install/realsense2_camera_msgs:/home/orangepi/ros2_ws/install/realsense2_description:/home/orangepi/ros2_ws/install/drone_bringup:/home/orangepi/ros2_ws/install/realsense2_camera:/home/orangepi/ros2_ws/install/drone_description:/home/orangepi/mavros_ws/install/mavros_extras:/home/orangepi/mavros_ws/install/mavros:/home/orangepi/mavros_ws/install/mavros_msgs:/home/orangepi/mavros_ws/install/libmavconn:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2_ws/install/realsense2_camera_msgs/lib:/home/orangepi/ros2_ws/install/realsense2_camera/lib:/home/orangepi/mavros_ws/install/mavros_extras/lib:/home/orangepi/mavros_ws/install/mavros/lib:/home/orangepi/mavros_ws/install/mavros_msgs/lib:/home/orangepi/mavros_ws/install/libmavconn/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/orangepi/ros2_ws/build/realsense2_camera -- -j8 -l8
+[2.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/orangepi/ros2_ws/install/realsense2_camera_msgs:/home/orangepi/ros2_ws/install/realsense2_description:/home/orangepi/ros2_ws/install/drone_bringup:/home/orangepi/ros2_ws/install/realsense2_camera:/home/orangepi/ros2_ws/install/drone_description:/home/orangepi/mavros_ws/install/mavros_extras:/home/orangepi/mavros_ws/install/mavros:/home/orangepi/mavros_ws/install/mavros_msgs:/home/orangepi/mavros_ws/install/libmavconn:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2_ws/install/realsense2_camera_msgs/lib:/home/orangepi/ros2_ws/install/realsense2_camera/lib:/home/orangepi/mavros_ws/install/mavros_extras/lib:/home/orangepi/mavros_ws/install/mavros/lib:/home/orangepi/mavros_ws/install/mavros_msgs/lib:/home/orangepi/mavros_ws/install/libmavconn/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/orangepi/ros2_ws/build/realsense2_camera
+[2.726s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera)
+[2.727s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera' for CMake module files
+[2.730s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera' for CMake config files
+[2.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[2.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[2.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/orangepi/ros2_ws/install/realsense2_camera_msgs:/home/orangepi/ros2_ws/install/realsense2_description:/home/orangepi/ros2_ws/install/drone_bringup:/home/orangepi/ros2_ws/install/realsense2_camera:/home/orangepi/ros2_ws/install/drone_description:/home/orangepi/mavros_ws/install/mavros_extras:/home/orangepi/mavros_ws/install/mavros:/home/orangepi/mavros_ws/install/mavros_msgs:/home/orangepi/mavros_ws/install/libmavconn:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble LD_LIBRARY_PATH=/home/orangepi/ros2_ws/install/realsense2_camera_msgs/lib:/home/orangepi/ros2_ws/install/realsense2_camera/lib:/home/orangepi/mavros_ws/install/mavros_extras/lib:/home/orangepi/mavros_ws/install/mavros/lib:/home/orangepi/mavros_ws/install/mavros_msgs/lib:/home/orangepi/mavros_ws/install/libmavconn/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/orangepi/ros2_ws/build/realsense2_camera
+[2.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[2.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[2.747s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera/lib'
+[2.747s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[2.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[2.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[2.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[2.763s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera/bin'
+[2.764s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[2.766s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera/lib/python3.10/site-packages'
+[2.768s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera/bin'
+[2.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[2.779s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[2.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.sh'
+[2.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.bash'
+[2.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[2.788s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_ws/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[2.789s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(realsense2_camera)
+[2.790s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera' for CMake module files
+[2.793s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera' for CMake config files
+[2.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'cmake_prefix_path')
+[2.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.ps1'
+[2.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.dsv'
+[2.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/realsense2_camera/share/realsense2_camera/hook/cmake_prefix_path.sh'
+[2.799s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera/lib'
+[2.800s] Level 1:colcon.colcon_core.shell:create_environment_hook('realsense2_camera', 'ld_library_path_lib')
+[2.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.ps1'
+[2.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.dsv'
+[2.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/realsense2_camera/share/realsense2_camera/hook/ld_library_path_lib.sh'
+[2.804s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera/bin'
+[2.804s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera/lib/pkgconfig/realsense2_camera.pc'
+[2.805s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera/lib/python3.10/site-packages'
+[2.805s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/realsense2_camera/bin'
+[2.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.ps1'
+[2.807s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.dsv'
+[2.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.sh'
+[2.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.bash'
+[2.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.zsh'
+[2.827s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_ws/install/realsense2_camera/share/colcon-core/packages/realsense2_camera)
+[2.836s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/orangepi/ros2_ws/src/drone_bringup' with build type 'ament_cmake'
+[2.837s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/orangepi/ros2_ws/src/drone_bringup'
+[2.839s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.839s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_utilities', 'pythonpath_develop')
+[2.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_ws/build/drone_utilities' returned '0': PYTHONPATH=/home/orangepi/ros2_ws/build/drone_utilities/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/orangepi/ros2_ws/install/drone_utilities/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/orangepi/ros2_ws/build/drone_utilities/build --no-deps symlink_data
+[2.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/build/drone_utilities/share/drone_utilities/hook/pythonpath_develop.ps1'
+[2.899s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_ws/build/drone_utilities/share/drone_utilities/hook/pythonpath_develop.dsv'
+[2.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/build/drone_utilities/share/drone_utilities/hook/pythonpath_develop.sh'
+[2.902s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_utilities' for CMake module files
+[2.903s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_utilities' for CMake config files
+[2.904s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_utilities/lib'
+[2.904s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_utilities/bin'
+[2.904s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_utilities/lib/pkgconfig/drone_utilities.pc'
+[2.904s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_utilities/lib/python3.10/site-packages'
+[2.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_utilities', 'pythonpath')
+[2.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/drone_utilities/share/drone_utilities/hook/pythonpath.ps1'
+[2.906s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_ws/install/drone_utilities/share/drone_utilities/hook/pythonpath.dsv'
+[2.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/drone_utilities/share/drone_utilities/hook/pythonpath.sh'
+[2.908s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_utilities/bin'
+[2.908s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone_utilities)
+[2.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/drone_utilities/share/drone_utilities/package.ps1'
+[2.910s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_ws/install/drone_utilities/share/drone_utilities/package.dsv'
+[2.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/drone_utilities/share/drone_utilities/package.sh'
+[2.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/drone_utilities/share/drone_utilities/package.bash'
+[2.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/drone_utilities/share/drone_utilities/package.zsh'
+[2.913s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_ws/install/drone_utilities/share/colcon-core/packages/drone_utilities)
+[2.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_ws/build/drone_bringup': CMAKE_PREFIX_PATH=/home/orangepi/ros2_ws/install/realsense2_camera:/home/orangepi/ros2_ws/install/realsense2_camera_msgs:/home/orangepi/ros2_ws/install/realsense2_description:/home/orangepi/ros2_ws/install/drone_bringup:/home/orangepi/ros2_ws/install/drone_description:/home/orangepi/mavros_ws/install/mavros_extras:/home/orangepi/mavros_ws/install/mavros:/home/orangepi/mavros_ws/install/mavros_msgs:/home/orangepi/mavros_ws/install/libmavconn:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_ws/build/drone_bringup -- -j8 -l8
+[3.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_ws/build/drone_bringup' returned '0': CMAKE_PREFIX_PATH=/home/orangepi/ros2_ws/install/realsense2_camera:/home/orangepi/ros2_ws/install/realsense2_camera_msgs:/home/orangepi/ros2_ws/install/realsense2_description:/home/orangepi/ros2_ws/install/drone_bringup:/home/orangepi/ros2_ws/install/drone_description:/home/orangepi/mavros_ws/install/mavros_extras:/home/orangepi/mavros_ws/install/mavros:/home/orangepi/mavros_ws/install/mavros_msgs:/home/orangepi/mavros_ws/install/libmavconn:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble /usr/bin/cmake --build /home/orangepi/ros2_ws/build/drone_bringup -- -j8 -l8
+[3.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/orangepi/ros2_ws/build/drone_bringup': CMAKE_PREFIX_PATH=/home/orangepi/ros2_ws/install/realsense2_camera:/home/orangepi/ros2_ws/install/realsense2_camera_msgs:/home/orangepi/ros2_ws/install/realsense2_description:/home/orangepi/ros2_ws/install/drone_bringup:/home/orangepi/ros2_ws/install/drone_description:/home/orangepi/mavros_ws/install/mavros_extras:/home/orangepi/mavros_ws/install/mavros:/home/orangepi/mavros_ws/install/mavros_msgs:/home/orangepi/mavros_ws/install/libmavconn:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_ws/build/drone_bringup
+[3.129s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone_bringup)
+[3.131s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_bringup' for CMake module files
+[3.136s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_bringup' for CMake config files
+[3.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_bringup', 'cmake_prefix_path')
+[3.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/drone_bringup/share/drone_bringup/hook/cmake_prefix_path.ps1'
+[3.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/orangepi/ros2_ws/build/drone_bringup' returned '0': CMAKE_PREFIX_PATH=/home/orangepi/ros2_ws/install/realsense2_camera:/home/orangepi/ros2_ws/install/realsense2_camera_msgs:/home/orangepi/ros2_ws/install/realsense2_description:/home/orangepi/ros2_ws/install/drone_bringup:/home/orangepi/ros2_ws/install/drone_description:/home/orangepi/mavros_ws/install/mavros_extras:/home/orangepi/mavros_ws/install/mavros:/home/orangepi/mavros_ws/install/mavros_msgs:/home/orangepi/mavros_ws/install/libmavconn:/home/orangepi/ros2_ws/install/drone_utilities:/opt/ros/humble /usr/bin/cmake --install /home/orangepi/ros2_ws/build/drone_bringup
+[3.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_ws/install/drone_bringup/share/drone_bringup/hook/cmake_prefix_path.dsv'
+[3.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/drone_bringup/share/drone_bringup/hook/cmake_prefix_path.sh'
+[3.155s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_bringup/bin'
+[3.156s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_bringup/lib/pkgconfig/drone_bringup.pc'
+[3.157s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_bringup/lib/python3.10/site-packages'
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_bringup/bin'
+[3.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/drone_bringup/share/drone_bringup/package.ps1'
+[3.164s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_ws/install/drone_bringup/share/drone_bringup/package.dsv'
+[3.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/drone_bringup/share/drone_bringup/package.sh'
+[3.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/drone_bringup/share/drone_bringup/package.bash'
+[3.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/drone_bringup/share/drone_bringup/package.zsh'
+[3.174s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_ws/install/drone_bringup/share/colcon-core/packages/drone_bringup)
+[3.178s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone_bringup)
+[3.180s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_bringup' for CMake module files
+[3.183s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_bringup' for CMake config files
+[3.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_bringup', 'cmake_prefix_path')
+[3.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/drone_bringup/share/drone_bringup/hook/cmake_prefix_path.ps1'
+[3.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/orangepi/ros2_ws/install/drone_bringup/share/drone_bringup/hook/cmake_prefix_path.dsv'
+[3.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/orangepi/ros2_ws/install/drone_bringup/share/drone_bringup/hook/cmake_prefix_path.sh'
+[3.196s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_bringup/bin'
+[3.196s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_bringup/lib/pkgconfig/drone_bringup.pc'
+[3.196s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_bringup/lib/python3.10/site-packages'
+[3.197s] Level 1:colcon.colcon_core.environment:checking '/home/orangepi/ros2_ws/install/drone_bringup/bin'
+[3.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/drone_bringup/share/drone_bringup/package.ps1'
+[3.198s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/orangepi/ros2_ws/install/drone_bringup/share/drone_bringup/package.dsv'
+[3.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/drone_bringup/share/drone_bringup/package.sh'
+[3.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/drone_bringup/share/drone_bringup/package.bash'
+[3.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/orangepi/ros2_ws/install/drone_bringup/share/drone_bringup/package.zsh'
+[3.204s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/orangepi/ros2_ws/install/drone_bringup/share/colcon-core/packages/drone_bringup)
+[3.205s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.205s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.206s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.206s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.241s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.242s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.242s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.303s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.305s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/ros2_ws/install/local_setup.ps1'
+[3.310s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/ros2_ws/install/_local_setup_util_ps1.py'
+[3.317s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/ros2_ws/install/setup.ps1'
+[3.323s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/ros2_ws/install/local_setup.sh'
+[3.329s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/orangepi/ros2_ws/install/_local_setup_util_sh.py'
+[3.333s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/ros2_ws/install/setup.sh'
+[3.343s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/ros2_ws/install/local_setup.bash'
+[3.352s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/ros2_ws/install/setup.bash'
+[3.361s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/orangepi/ros2_ws/install/local_setup.zsh'
+[3.365s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/orangepi/ros2_ws/install/setup.zsh'
