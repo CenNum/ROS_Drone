@@ -1,0 +1,26 @@
+######################
+# ROS / Catkin Files #
+######################
+build/
+install/
+log/
+devel/
+src/realsense-ros/
+
+#################
+# Python Files  #
+#################
+*.pyc
+__pycache__/
+
+#################
+#   IDE Files   #
+#################
+.vscode/
+.idea/
+
+#################
+#   other Files   #
+#################
+*.gv
+*.db
