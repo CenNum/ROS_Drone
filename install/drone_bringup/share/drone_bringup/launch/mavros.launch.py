@@ -1,0 +1,1 @@
+/home/orangepi/ros2_ws/src/drone_bringup/launch/mavros.launch.py

@@ -14,11 +14,12 @@ rtabmap: # 确保您的 launch 文件中的节点名称是 "rtabmap"
     # 订阅设置
     subscribe_depth: true
     subscribe_rgb: true
+    
 
     # 框架ID和数据库路径
     # ❗【重要】frame_id 必须与建图时使用的 frame_id 一致
     frame_id: "base_footprint"
-    odom_frame_id: "odom_frame"
+    odom_frame_id: "odom"
     database_path: "/home/orangepi/ros2_ws/src/drone_bringup/map/rtabmap.db" # 使用 ~ 表示用户主目录，更具可移植性
 
     # 同步设置

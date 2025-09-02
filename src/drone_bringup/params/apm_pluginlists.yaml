@@ -1,0 +1,15 @@
+# This file uses a whitelist to specify which MAVROS plugins to load.
+# It has been updated to use standard ROS2 YAML syntax.
+mavros:
+  mavros:
+    ros__parameters:
+      plugin_allowlist:
+        - "sys_status"          # 基础状态插件
+        - "command"             # 接收指令插件
+        - "param"               # 参数读写插件
+        - "local_position"      # 处理本地位置
+        - "vision_pose"           # ‼️ 强制启用视觉定位插件 (正确名称是 vision_pose)
+        - "odometry"
+        - "setpoint_position"
+        - "vision_speed"
+        - "sys_time"

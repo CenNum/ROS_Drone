@@ -19,7 +19,7 @@ def generate_launch_description():
         ('rgb/image', '/D400/color/image_raw'),
         ('rgb/camera_info', '/D400/color/camera_info'),
         ('depth/image', '/D400/aligned_depth_to_color/image_raw'),
-        ('odom', '/T265/odom/sample'), # ❗【重要】应使用Odometry类型的消息
+        ('odom', '/T265/pose/sample'), # ❗【重要】应使用Odometry类型的消息
     ]
 
     return LaunchDescription([

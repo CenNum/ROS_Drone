@@ -8,8 +8,8 @@ def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time')
     
     rtabmap_common_params = {
-        'frame_id': 'D400_link', 
-        'odom_frame_id': 'odom_frame',
+        'frame_id': 'base_footprint', 
+        'odom_frame_id': 'odom',
         'subscribe_depth': True,
         'subscribe_rgb': True,
         'subscribe_odom_info': False,
